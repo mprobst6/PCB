@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name 555_Badge)(type KiCad)(uri ${KIPRJMOD}/555_Badge.pretty)(options "")(descr ""))
+)
