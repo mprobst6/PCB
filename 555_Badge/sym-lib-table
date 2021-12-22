@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name 555_badge)(type Legacy)(uri ${KIPRJMOD}/555_badge.lib)(options "")(descr ""))
+  (lib (name dk_Battery-Holders-Clips-Contacts)(type Legacy)(uri C:/Users/Lprxoy/Documents/PCB/Libraries/digikey-kicad-library-master/digikey-symbols/dk_Battery-Holders-Clips-Contacts.lib)(options "")(descr ""))
+  (lib (name dk_Slide-Switches)(type Legacy)(uri C:/Users/Lprxoy/Documents/PCB/Libraries/digikey-kicad-library-master/digikey-symbols/dk_Slide-Switches.lib)(options "")(descr ""))
 )
