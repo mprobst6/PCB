@@ -1,0 +1,159 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "555_Badge"
+Date ""
+Rev "V1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Author: Michael Probst"
+$EndDescr
+$Comp
+L 555_badge:7555 U??
+U 1 1 61C28550
+P 4850 4500
+F 0 "U??" H 5294 4571 50  0000 L CNN
+F 1 "7555" H 5294 4480 50  0000 L CNN
+F 2 "" H 4850 4500 50  0001 C CNN
+F 3 "" H 4850 4500 50  0001 C CNN
+	1    4850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C2931F
+P 3800 4100
+F 0 "R?" H 3870 4146 50  0000 L CNN
+F 1 "22k" H 3870 4055 50  0000 L CNN
+F 2 "" V 3730 4100 50  0001 C CNN
+F 3 "~" H 3800 4100 50  0001 C CNN
+	1    3800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C29885
+P 3800 4750
+F 0 "R?" H 3870 4796 50  0000 L CNN
+F 1 "330k" H 3870 4705 50  0000 L CNN
+F 2 "" V 3730 4750 50  0001 C CNN
+F 3 "~" H 3800 4750 50  0001 C CNN
+	1    3800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C29AC3
+P 5900 4750
+F 0 "R?" V 5693 4750 50  0000 C CNN
+F 1 "22k" V 5784 4750 50  0000 C CNN
+F 2 "" V 5830 4750 50  0001 C CNN
+F 3 "~" H 5900 4750 50  0001 C CNN
+	1    5900 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C2A1F6
+P 6200 5150
+F 0 "R?" H 6130 5104 50  0000 R CNN
+F 1 "100k" H 6130 5195 50  0000 R CNN
+F 2 "" V 6130 5150 50  0001 C CNN
+F 3 "~" H 6200 5150 50  0001 C CNN
+	1    6200 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C2A680
+P 7950 3650
+F 0 "R?" H 7880 3604 50  0000 R CNN
+F 1 "100" H 7880 3695 50  0000 R CNN
+F 2 "" V 7880 3650 50  0001 C CNN
+F 3 "~" H 7950 3650 50  0001 C CNN
+	1    7950 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C2ACEE
+P 8400 3650
+F 0 "R?" H 8330 3604 50  0000 R CNN
+F 1 "100" H 8330 3695 50  0000 R CNN
+F 2 "" V 8330 3650 50  0001 C CNN
+F 3 "~" H 8400 3650 50  0001 C CNN
+	1    8400 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C2AFCA
+P 7200 4750
+F 0 "R?" V 6993 4750 50  0000 C CNN
+F 1 "10k" V 7084 4750 50  0000 C CNN
+F 2 "" V 7130 4750 50  0001 C CNN
+F 3 "~" H 7200 4750 50  0001 C CNN
+	1    7200 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61C2CD88
+P 6650 5150
+F 0 "C?" H 6765 5196 50  0000 L CNN
+F 1 "100uF" H 6765 5105 50  0000 L CNN
+F 2 "" H 6650 5150 50  0001 C CNN
+F 3 "~" H 6650 5150 50  0001 C CNN
+	1    6650 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 61C2DD86
+P 3800 5250
+F 0 "C?" H 3915 5296 50  0000 L CNN
+F 1 "10uF" H 3915 5205 50  0000 L CNN
+F 2 "" H 3800 5250 50  0001 C CNN
+F 3 "~" H 3800 5250 50  0001 C CNN
+	1    3800 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61C2E9FE
+P 7950 4100
+F 0 "D?" V 7989 3982 50  0000 R CNN
+F 1 "RED" V 7898 3982 50  0000 R CNN
+F 2 "" H 7950 4100 50  0001 C CNN
+F 3 "~" H 7950 4100 50  0001 C CNN
+	1    7950 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61C2F738
+P 8400 4100
+F 0 "D?" V 8439 3982 50  0000 R CNN
+F 1 "RED" V 8348 3982 50  0000 R CNN
+F 2 "" H 8400 4100 50  0001 C CNN
+F 3 "~" H 8400 4100 50  0001 C CNN
+	1    8400 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 61C30386
+P 7850 4750
+F 0 "Q?" H 8040 4796 50  0000 L CNN
+F 1 "2N3904" H 8040 4705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8050 4675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 7850 4750 50  0001 L CNN
+	1    7850 4750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
